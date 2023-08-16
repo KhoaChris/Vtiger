@@ -1,0 +1,26 @@
+@import '@taiga-ui/core/styles/taiga-ui-local.scss';
+
+.wrapper {
+    position: relative;
+ 
+    --tui-chart-0: var(--tui-support-03);
+}
+ 
+.stacked {
+    // .fullsize();
+ 
+    --tui-secondary: transparent;
+    --tui-chart-0: var(--tui-support-04);
+}
+ 
+// other styles
+
+#menu{
+    font-size: 100px;
+    color: red;
+}
+
+#setting{
+    font-size: 100px;
+    color: red;
+}
