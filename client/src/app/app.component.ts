@@ -12,10 +12,6 @@ export class AppComponent {
   md5 = new Md5();
 
   constructor(private http: HttpClient){
-
-    this.http.get("http://localhost:3000/calculate/10/30").subscribe((data) => {
-      console.log(data);
-    } )
   }
 
 }
